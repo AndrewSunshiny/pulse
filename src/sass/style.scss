@@ -1,8 +1,17 @@
 // libs
 @import "libs/fonts";
 @import "libs/bootstrap-reboot";
+// base
+@import "base/variables";
 * {
 	font-family: "Museo Sans Cycl", sans-serif;
+}
+html,
+body {
+	color: #0d0d0d;
+}
+a {
+	color: $main-color;
 }
 .container {
   max-width: 950px;
