@@ -1,6 +1,9 @@
 // libs
 @import "libs/fonts";
 @import "libs/bootstrap-reboot";
+* {
+	font-family: "Museo Sans Cycl", sans-serif;
+}
 .container {
   max-width: 950px;
   margin: 0 auto;
