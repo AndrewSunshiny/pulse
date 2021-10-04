@@ -17,11 +17,14 @@ a {
   max-width: 950px;
   margin: 0 auto;
 }
+
 // icons
 @import "libs/icomoon";
+
 // elements
 @import "blocks/buttons";
 @import "blocks/header";
+@import "blocks/title";
 // sections
 @import "blocks/promo";
 @import "blocks/advantages";
