@@ -1,0 +1,24 @@
+.button {
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: $main-color;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  &_big {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  &_buy {
+    height: 40px;
+    width: 135px;
+    font-size: 14px;
+  }
+}
