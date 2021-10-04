@@ -1,6 +1,10 @@
 // libs
 @import "libs/fonts";
 @import "libs/bootstrap-reboot";
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
 // elements
 @import "blocks/buttons";
 @import "blocks/header";
