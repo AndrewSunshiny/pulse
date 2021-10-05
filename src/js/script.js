@@ -38,4 +38,20 @@ $(document).ready(function(){
 
   toggleSlide(".catalog-item__link");
   toggleSlide(".catalog-item__back");
+
+  $("[data-modal=consultation]").on("click", function () {
+    $(".overlay, #consultation").fadeIn("slow");
+  });
+
+  $(".modal__close").on("click", function () {
+    $(".overlay, .modal").fadeOut("slow");
+  });
+
+  $(".button_buy").each(function (i) {
+    $(this).on("click", function () {
+      $("#order .modal__desc").text($(".catalog-item__subtitle").eq(i).text());
+      $(".overlay, #order").fadeIn("slow");
+    });
+  });
+
 });
