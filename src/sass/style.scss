@@ -1,6 +1,7 @@
 // libs
 @import "libs/fonts";
 @import "libs/bootstrap-reboot";
+@import "libs/slick";
 // base
 @import "base/variables";
 * {
@@ -31,3 +32,4 @@ a {
 @import "blocks/promo";
 @import "blocks/advantages";
 @import "blocks/consultation";
+@import "blocks/carousel";
