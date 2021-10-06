@@ -21,4 +21,15 @@
         }
       }
     }
+    .reviews {
+      &__item {
+        margin-top: 28px;
+      }
+      &__avatar {
+        img {
+          height: 60px;
+          width: 60px;
+        }
+      }
+    }
 }
