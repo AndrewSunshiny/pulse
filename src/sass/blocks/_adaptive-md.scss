@@ -1,2 +1,31 @@
 @media (max-width: 991px) {
+    .promo {
+        padding-top: 15px;
+        padding-bottom: 60px;
+        &__wrapper {
+            margin-top: 70px;
+        }
+        &__header, &__subheader {
+            width: 100%;
+            text-align: center;
+        }
+        &__icons {
+            justify-content: center;
+            width: 100%;
+            margin-top: 50px;
+        }
+        &__icon {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .button_big {
+            margin-top: 60px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__link {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
 }
