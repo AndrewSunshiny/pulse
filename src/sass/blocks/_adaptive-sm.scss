@@ -24,4 +24,15 @@
       font-size: 22px;
     }
   }
+  .advantages {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    &__cards {
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    &__card {
+      min-width: 240px;
+    }
+  }
 }
