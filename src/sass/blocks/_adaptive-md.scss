@@ -98,4 +98,17 @@
             line-height: 20px;
         }
     }
+    .footer {
+        &__map {
+            height: 430px;
+        }
+        &__info {
+            height: 220px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        &__social {
+            margin-top: 28px;
+        }
+    }
 }
