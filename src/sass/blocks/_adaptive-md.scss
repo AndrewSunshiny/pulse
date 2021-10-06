@@ -72,4 +72,13 @@
             }
         }
     }
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+        &-item {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
 }
