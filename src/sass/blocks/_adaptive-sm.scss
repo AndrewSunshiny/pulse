@@ -1,2 +1,12 @@
 @media (max-width: 767px) {
+  .title {
+    font-size: 28px;
+    &_left {
+      text-align: center;
+      text-align-last: center;
+      br {
+        display: none;
+      }
+    }
+  }
 }
