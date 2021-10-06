@@ -81,4 +81,21 @@
             margin-right: 15px;
         }
     }
+    .reviews {
+        &__item {
+            margin-top: 56px;
+        }
+        &__avatar {
+            img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+        &__main {
+            margin-left: 40px;
+        }
+        &__text {
+            line-height: 20px;
+        }
+    }
 }
