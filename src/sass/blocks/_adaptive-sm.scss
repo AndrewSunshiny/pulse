@@ -96,4 +96,13 @@
       font-size: 14px;
     }
   }
+  .footer {
+      border-top: 5px solid $main-color;
+    &__info {
+      position: static;
+      height: 200px;
+      width: 100%;
+      transform: unset;
+    }
+  }
 }
