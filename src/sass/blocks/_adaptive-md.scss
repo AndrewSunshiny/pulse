@@ -28,4 +28,48 @@
             margin-right: auto;
         }
     }
+    .carousel {
+        &__inner {
+            width: 100%;
+            max-width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+            .slick {
+                &-slide {
+                    height: 510px;
+                }
+                &-dots {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    margin-top: 50px;
+                    margin-bottom: 0;
+                    padding-left: 0;
+                    list-style: none;
+                    li {
+                        display: flex;
+                        justify-content: center;
+                        width: 150px;
+                        margin-left: 40px;
+                        margin-right: 40px;
+                        button {
+                            width: 100%;
+                            border: none;
+                            background-color: $main-color;
+                            cursor: pointer;
+                            color: #fff;
+                        }
+                    }
+                }
+                &-active[role="presentation"] {
+                    button {
+                        background-color: #fff;
+                                border-bottom: solid 2px $main-color;
+                            color: $main-color;
+                            outline: none;
+                    }
+                }
+            }
+        }
+    }
 }
