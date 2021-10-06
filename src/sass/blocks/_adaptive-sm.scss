@@ -16,4 +16,12 @@
       display: none;
     }
   }
+  .promo {
+    &__header {
+      font-size: 36px;
+    }
+    &__subheader {
+      font-size: 22px;
+    }
+  }
 }
