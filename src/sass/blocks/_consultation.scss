@@ -1,0 +1,16 @@
+.consultation {
+  min-height: 680px;
+  padding-top: 100px;
+  padding-bottom: 92px;
+  background: url(../img/consultaion.jpg) center (center/cover) no-repeat;
+  color: #fff;
+  text-align: left;
+  &__desc {
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .feed-form {
+    margin-top: 36px;
+  }
+}

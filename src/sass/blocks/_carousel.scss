@@ -1,0 +1,41 @@
+.carousel {
+  padding: 81px 0;
+  &__inner {
+    position: relative;
+    width: 750px;
+    margin: 0 auto;
+    .slick {
+      &-slide {
+        height: 580px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 100%;
+        }
+      }
+      &-arrow {
+        position: absolute;
+        top: 50%;
+        border: none;
+        background-color: #fff;
+        transform: translateY(-50%);
+        cursor: pointer;
+        &:focus,
+        &:focus-visible {
+          outline: none;
+        }
+        img {
+          width: 31px;
+          height: 51px;
+        }
+      }
+      &-prev {
+        left: -66px;
+      }
+      &-next {
+        right: -66px;
+      }
+    }
+  }
+}
